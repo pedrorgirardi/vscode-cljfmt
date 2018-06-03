@@ -1,8 +1,8 @@
-# Visual Studo Code cljfmt
+# cljfmt
 
 ![cljfmt](images/web.png)
 
-This extension is a wrapper for the **cljfmt** formatting tool. It provides a formatter for Clojure, ClojureScript and EDN code, so `Format Document` and `Format Selection` work as expected.
+This extension is a wrapper for the [**cljfmt**](https://github.com/weavejester/cljfmt)  formatting tool. It provides a formatter for Clojure, ClojureScript and EDN code, so `Format Document` and `Format Selection` work as expected.
 
 
 ## Format on save
@@ -30,6 +30,11 @@ Change your settings to enable `cljfmt` to format your code on save:
 If you are looking for a Clojure & ClojureScript programming environment for **Visual Studio Code**, it's a good idea to check **Calva** and the other extensions.
 
 If you already have **Calva** installed, please be aware that formatting may not work properly since both extensions will try to format your code.
+
+
+## Acknowledgement
+
+Thank you, James Reeves!
 
 
 ## Written in ClojureScript
