@@ -1,5 +1,7 @@
 # Change Log
 
+## [Unreleased]
+
 ## [0.0.10] - 2017-06-07
 ### Fixed
 - Formatter should work even for documents not saved on disk.
