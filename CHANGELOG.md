@@ -1,7 +1,8 @@
 # Change Log
-All notable changes to the "vscode-cljfmt" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.9] - 2017-06-07
+### Changed
+- **cljfmt** `:remove-consecutive-blank-lines?` configuration is set to false.
 
-## [Unreleased]
-- Initial release
+### Removed
+- Configuration `cljfmt.removeConsecutiveBlankLines`.
