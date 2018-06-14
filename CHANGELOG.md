@@ -1,5 +1,7 @@
 # Change Log
 
+## [0.0.12]
+
 ## [0.0.11] - 2017-06-14
 ## Removed
 - Configuration `cljfmt.removeConsecutiveBlankLines` from README.
