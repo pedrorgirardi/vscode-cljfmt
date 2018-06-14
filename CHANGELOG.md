@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.11] - 2017-06-14
+## Removed
+- Configuration `cljfmt.removeConsecutiveBlankLines` from README.
+
 ## [0.0.10] - 2017-06-07
 ### Fixed
 - Formatter should work even for documents not saved on disk.

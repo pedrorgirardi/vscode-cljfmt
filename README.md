@@ -18,8 +18,6 @@ Change your settings to enable `cljfmt` to format your code on save:
 
 `cljfmt.insertMissingWhitespace` - true if cljfmt should insert whitespace missing from between elements. This will convert (foo(bar)) to (foo (bar)). Defaults to true.
 
-`cljfmt.removeConsecutiveBlankLines` - true if cljfmt should collapse consecutive blank lines. This will convert (foo)\n\n\n(bar) to (foo)\n\n(bar). Defaults to true.
-
 `cljfmt.removeSurroundingWhitespace` -  true if cljfmt should remove whitespace surrounding inner forms. This will convert ( foo ) to (foo). Defaults to true.
 
 `cljfmt.removeTrailingWhitespace` - true if cljfmt should remove trailing whitespace in lines. This will convert (foo) \n to (foo)\n. Defaults to true.
