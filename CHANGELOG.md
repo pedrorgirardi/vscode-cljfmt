@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.0.13] - 
+### Changed
+- Updated **cljfmt** version to `0.6.1`.
+- Updated **shadow-cljs** version to `2.6.10`.
+
 ## [0.0.12] - 2017-08-22
 ### Changed
 - Updated **cljfmt** version to `0.6.0`.
