@@ -28,7 +28,18 @@
       (when pretty
         #js [(vscode/TextEdit.replace range pretty)]))))
 
+(defn register-disposable [^js context ^js disposable]
+  (-> (.-subscriptions context)
+      (.push disposable)))
+
+(defn dispose [context & disposables]
+  (doseq [disposable disposables]
+    (register-disposable context disposable)))
+
+(def document-selector
+  #js {:language "clojure"})
 
 (defn activate [^js context]
   (let [provider (ClojureDocumentRangeFormattingEditProvider.)]
-    (.push context.subscriptions (vscode/languages.registerDocumentRangeFormattingEditProvider "clojure" provider))))
+    (dispose context 
+      (vscode/languages.registerDocumentRangeFormattingEditProvider document-selector provider))))
