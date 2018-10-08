@@ -1,9 +1,7 @@
 (ns vscode-cljfmt.core
   (:require
    ["vscode" :as vscode]
-
    [cljfmt.core :as cljfmt]))
-
 
 (defn- parse-configuration [^js configuration]
   {:indentation?                    (.get configuration "indentation")
@@ -12,18 +10,17 @@
    :insert-missing-whitespace?      (.get configuration "insertMissingWhitespace")
    :remove-consecutive-blank-lines? false})
 
-
 (deftype ClojureDocumentRangeFormattingEditProvider []
   Object
   (provideDocumentRangeFormattingEdits [_ document range options token]
     (let [configuration (parse-configuration (vscode/workspace.getConfiguration "cljfmt"))
 
-          text          (.getText document range)
+          text (.getText document range)
 
-          pretty        (try
-                          (cljfmt/reformat-string text configuration)
-                          (catch js/Error e
-                            (js/console.log (.-message e))))]
+          pretty (try
+                   (cljfmt/reformat-string text configuration)
+                   (catch js/Error e
+                     (js/console.log (.-message e))))]
 
       (when pretty
         #js [(vscode/TextEdit.replace range pretty)]))))
