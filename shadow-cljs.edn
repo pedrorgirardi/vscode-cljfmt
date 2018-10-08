@@ -1,9 +1,10 @@
-{:dependencies [[cljfmt "0.6.0"]]
+{:dependencies [[cljfmt "0.6.1"]]
 
  :source-paths ["src"]
 
  :builds
  {:extension
-  {:target    :node-library
-   :exports   {:activate vscode-cljfmt.core/activate}
+  {:target :node-library
+   :compiler-options {:optimizations :simple}
+   :exports {:activate vscode-cljfmt.core/activate}
    :output-to "extension.js"}}}
