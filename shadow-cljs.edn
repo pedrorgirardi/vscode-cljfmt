@@ -4,6 +4,7 @@
 
  :builds
  {:extension
-  {:target    :node-library
-   :exports   {:activate vscode-cljfmt.core/activate}
+  {:target :node-library
+   :compiler-options {:optimizations :simple}
+   :exports {:activate vscode-cljfmt.core/activate}
    :output-to "extension.js"}}}

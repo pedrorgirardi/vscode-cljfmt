@@ -5,7 +5,7 @@
    [cljfmt.core :as cljfmt]))
 
 
-(defn- parse-configuration [configuration]
+(defn- parse-configuration [^js configuration]
   {:indentation?                    (.get configuration "indentation")
    :remove-surrounding-whitespace?  (.get configuration "removeSurroundingWhitespace")
    :remove-trailing-whitespace?     (.get configuration "removeTrailingWhitespace")
@@ -32,7 +32,7 @@
   (-> (.-subscriptions context)
       (.push disposable)))
 
-(defn dispose [context & disposables]
+(defn dispose [^js context & disposables]
   (doseq [disposable disposables]
     (register-disposable context disposable)))
 
