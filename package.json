@@ -1,7 +1,7 @@
 {
     "name": "vscode-cljfmt",
     "displayName": "cljfmt",
-    "description": "An extension for formatting Clojure & ClojureScript code",
+    "description": "Format Clojure & EDN.",
     "version": "0.0.14-SNAPSHOT",
     "publisher": "pedrorgirardi",
     "engines": {
