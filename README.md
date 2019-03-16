@@ -2,15 +2,7 @@
 
 ![cljfmt](images/web.png)
 
-This extension is a wrapper for the [**cljfmt**](https://github.com/weavejester/cljfmt)  formatting tool. It provides a formatter for Clojure, ClojureScript and EDN code, so `Format Document` and `Format Selection` work as expected.
-
-
-## Format on save
-
-Change your settings to enable `cljfmt` to format your code on save:
-
-`"editor.formatOnSave": true`
-
+This extension is a [**cljfmt**](https://github.com/weavejester/cljfmt) wrapper to provide document and range formatting.
 
 ## Configuration
 
