@@ -1,6 +1,9 @@
 # Change Log
 
-## [0.0.15] - 
+## [0.0.15] - 2019-03-16
+### Changed
+- Updated **cljfmt** version to `0.6.4`.
+- Updated **shadow-cljs** version to `2.8.18`.
 
 ## [0.0.14] - 2018-12-21
 ### Changed
