@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.0.16] - 2020-01-20
+### Changed
+- Updated **cljfmt** version to `0.6.6`.
+- Updated **vscode** version to `1.1.36`.
+- Deleted unused dev dependencies.
+
+
 ## [0.0.15] - 2019-03-16
 ### Changed
 - Updated **cljfmt** version to `0.6.4`.
