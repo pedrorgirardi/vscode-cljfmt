@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.0] - 2020-04-27
+### Changed
+- Updated **cljfmt** version to `0.6.7`.
+
 ## [0.0.16] - 2020-01-20
 ### Changed
 - Updated **cljfmt** version to `0.6.6`.
