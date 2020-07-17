@@ -38,5 +38,4 @@
 
 (defn activate [^js context]
   (let [provider (ClojureDocumentRangeFormattingEditProvider.)]
-    (dispose context 
-      (vscode/languages.registerDocumentRangeFormattingEditProvider document-selector provider))))
+    (dispose context (vscode/languages.registerDocumentRangeFormattingEditProvider document-selector provider))))
