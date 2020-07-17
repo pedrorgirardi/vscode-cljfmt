@@ -8,7 +8,7 @@
    :remove-surrounding-whitespace?  (.get configuration "removeSurroundingWhitespace")
    :remove-trailing-whitespace?     (.get configuration "removeTrailingWhitespace")
    :insert-missing-whitespace?      (.get configuration "insertMissingWhitespace")
-   :remove-consecutive-blank-lines? false})
+   :remove-consecutive-blank-lines? (.get configuration "removeConsecutiveBlankLines")})
 
 (deftype ClojureDocumentRangeFormattingEditProvider []
   Object
