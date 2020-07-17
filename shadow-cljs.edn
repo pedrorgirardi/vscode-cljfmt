@@ -1,4 +1,6 @@
-{:dependencies [[cljfmt "0.6.8"]]
+{:dependencies
+ [[cljfmt "0.6.8"]
+  [thheller/shadow-cljs "2.10.15"]]
 
  :source-paths ["src"]
 
