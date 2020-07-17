@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.1.0] - 2020-07-17
+- Updated **cljfmt** version to `0.6.8`;
+- Updated **shadow-cljs** version to `2.10.15`;
+- Added configuration `removeConsecutiveBlankLines`.
+
 ## [1.0.0] - 2020-04-27
 ### Changed
 - Updated **cljfmt** version to `0.6.7`.
