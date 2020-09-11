@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.2.0] - 2020-09-11
+- Updated **cljfmt** version to `0.7.0`;
+- Updated **shadow-cljs** version to `2.11.4`.
+
 ## [1.1.0] - 2020-07-17
 - Updated **cljfmt** version to `0.6.8`;
 - Updated **shadow-cljs** version to `2.10.15`;
