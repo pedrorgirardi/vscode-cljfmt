@@ -1,5 +1,5 @@
 {:dependencies
- [[cljfmt "0.7.0"]]
+ [[cljfmt "0.8.0"]]
 
  :source-paths ["src"]
 
