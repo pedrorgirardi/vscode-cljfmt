@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.4.0] - 2023-05-02
+- No changes
+
+## [1.3.0] - 2023-05-02
+- Updated **cljfmt** version to `0.9.2`;
+- Updated **shadow-cljs** version to `2.23.3`.
+- Bump vscode engine to `^1.66.0`
+
 ## [1.2.0] - 2020-09-11
 - Updated **cljfmt** version to `0.7.0`;
 - Updated **shadow-cljs** version to `2.11.4`.
