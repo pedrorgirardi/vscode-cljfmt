@@ -8,3 +8,4 @@ pom.xml
 *.idea/
 *.DS_Store
 .cpcache/
+vscode-cljfmt.sublime-workspace

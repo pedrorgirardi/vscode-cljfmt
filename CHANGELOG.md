@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.5.0] - in development
+- Updated cljfmt to 0.11.2
+
 ## [1.4.0] - 2023-05-02
 - No changes
 
