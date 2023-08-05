@@ -12,7 +12,7 @@
 
 (deftype ClojureDocumentRangeFormattingEditProvider []
   Object
-  (provideDocumentRangeFormattingEdits [_ ^js document range options token]
+  (provideDocumentRangeFormattingEdits [_ ^js document ^js range _options _token]
     (let [configuration (parse-configuration (vscode/workspace.getConfiguration "cljfmt"))
 
           text (.getText document range)
