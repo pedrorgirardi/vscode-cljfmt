@@ -1,0 +1,9 @@
+{:paths ["src/main/clojure" "src/main/resources"]
+
+ :deps
+ {org.clojure/clojure {:mvn/version "1.11.1"}
+  cljfmt/cljfmt {:mvn/version "0.9.2"}}
+
+ :aliases
+ {:repl
+  {:jvm-opts ["-Dclojure.server.repl={:port,5555,:accept,clojure.core.server/repl}"]}}}

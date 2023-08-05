@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "pep": {
+        "paths": [
+            "src"
+        ],
+        "classpath": "clojure -Spath",
+    }
+}

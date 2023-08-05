@@ -1,8 +1,4 @@
-{:dependencies
- [[cljfmt "0.9.2"]]
-
- :source-paths ["src"]
-
+{:deps true
  :builds
  {:extension
   {:target :node-library
