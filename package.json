@@ -50,6 +50,21 @@
                         "type": "boolean",
                         "default": true,
                         "description": "true if cljfmt should collapse consecutive blank lines. This will convert (foo)\n\n\n(bar) to (foo)\n\n(bar)"
+                    },
+                    "cljfmt.removeMultipleNonIndentingSpaces": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "true if cljfmt should remove multiple non indenting spaces. For example, this will convert {:a 1     :b 2} to {:a 1 :b 2}. Defaults to false."
+                    },
+                    "cljfmt.splitKeypairsOverMultipleLines": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "true if cljfmt should break hashmaps onto multiple lines. This will convert {:a 1 :b 2} to {:a 1\n:b 2}. Defaults to false."
+                    },
+                    "cljfmt.sortNamespaceReferences": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "true if cljfmt should alphanumerically sort the requires, imports and other references in the ns forms at the top of your namespaces. Defaults to false."
                     }
                 }
             }

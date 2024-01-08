@@ -3,6 +3,10 @@
 ## [1.5.0] - in development
 - Updated **cljfmt** version to `0.12.0`
 - Updated **shadow-cljs** version to `2.26.2`
+- Added configurations:
+  - `removeMultipleNonIndentingSpaces`
+  - `splitKeypairsOverMultipleLines`
+  - `sortNamespaceReferences`
 
 ## [1.4.0] - 2023-05-02
 - No changes
