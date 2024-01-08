@@ -60,10 +60,9 @@
         "watch": "npx shadow-cljs watch :extension",
         "compile": "npx shadow-cljs compile :extension",
         "release": "npx shadow-cljs release :extension",
-        "vscode:prepublish": "npm run clean && npm run release",
-        "package": "vsce package"
+        "package": "npx @vscode/vsce package"
     },
     "devDependencies": {
-        "shadow-cljs": "^2.25.2"
+        "shadow-cljs": "^2.26.2"
     }
 }
