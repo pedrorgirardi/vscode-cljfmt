@@ -2,7 +2,7 @@
 
 ![cljfmt](images/web.png)
 
-This extension is a [**cljfmt**](https://github.com/weavejester/cljfmt) wrapper to provide document and range formatting.
+This extension is a [**cljfmt**](https://github.com/weavejester/cljfmt) wrapper to provide document and range formatting to **Visual Studio Code**.
 
 ## Configuration
 
