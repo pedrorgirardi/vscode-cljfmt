@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.5.0] - in development
+## [1.5.0] - 2024-01-08
 - Updated **cljfmt** version to `0.12.0`
 - Updated **shadow-cljs** version to `2.26.2`
 - Added configurations:

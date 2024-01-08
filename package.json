@@ -2,7 +2,7 @@
     "name": "vscode-cljfmt",
     "displayName": "cljfmt",
     "description": "Format Clojure & EDN.",
-    "version": "1.5.0-dev",
+    "version": "1.5.0",
     "publisher": "pedrorgirardi",
     "engines": {
         "vscode": "^1.66.0"
