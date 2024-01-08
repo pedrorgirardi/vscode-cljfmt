@@ -5,3 +5,11 @@ test/**
 jsconfig.json
 vsc-extension-quickstart.md
 .eslintrc.json
+.clj-kondo/**
+.cpcache/**
+.shadow-cljs/**
+src/**
+deps.edn
+shadow-cljs.edn
+vscode-cljfmt.sublime-project
+vscode-cljfmt.sublime-workspace
