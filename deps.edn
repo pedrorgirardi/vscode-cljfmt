@@ -1,7 +1,7 @@
 {:paths ["src"]
 
  :deps
- {org.clojure/clojure {:mvn/version "1.11.1"}
+ {org.clojure/clojure {:mvn/version "1.12.3"}
   dev.weavejester/cljfmt {:mvn/version "0.12.0"}}
 
  :aliases
